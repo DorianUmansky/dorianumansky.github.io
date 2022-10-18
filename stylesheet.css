@@ -7,7 +7,7 @@ h1 {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
-  width: 50%;
+  width: 4em;
   }
 h2 {
   text-align: center; 
@@ -18,7 +18,7 @@ h2 {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
-  width: 50%;
+  width: 4em;
   }
 p {
   text-align: center;
@@ -29,7 +29,7 @@ p {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
-  width: 50%;
+  width: 4em;
   }
 div {
   color: #E9D7DB;
