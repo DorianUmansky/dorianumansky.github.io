@@ -7,6 +7,7 @@ h1 {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
+  box-sizing: border-box;
   width: 4em;
   }
 h2 {
@@ -18,6 +19,7 @@ h2 {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
+  box-sizing: border-box;
   width: 4em;
   }
 p {
@@ -29,6 +31,7 @@ p {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
+  box-sizing: border-box;
   width: 4em;
   }
 div {
