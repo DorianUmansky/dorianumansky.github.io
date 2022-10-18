@@ -6,7 +6,8 @@ h1 {
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
-text-size-adjust: inherit;
+  text-size-adjust: inherit;
+  width: 50%;
   }
 h2 {
   text-align: center; 
@@ -16,7 +17,8 @@ h2 {
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
-text-size-adjust: inherit;
+  text-size-adjust: inherit;
+  width: 50%;
   }
 p {
   text-align: center;
@@ -26,7 +28,8 @@ p {
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
-text-size-adjust: inherit;
+  text-size-adjust: inherit;
+  width: 50%;
   }
 div {
   color: #E9D7DB;
