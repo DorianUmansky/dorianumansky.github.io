@@ -2,7 +2,7 @@ h1 {
   text-align: center; 
   color: #E9D7DB;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: 1.6em;
+  font-size: x-large;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
@@ -12,7 +12,7 @@ h2 {
   text-align: center; 
   color: #CCB3AE;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: 1.6em;
+  font-size: x-large;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
@@ -22,7 +22,7 @@ p {
   text-align: center;
   color: #E9D7DB;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: 1em;
+  font-size: large;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
