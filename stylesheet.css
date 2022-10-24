@@ -1,32 +1,37 @@
 h1 {
-  text-align: center; 
+  text-align: left; 
   color: #E9D7DB;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: x-large;
+  font-size: 3em;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
-  }
+  padding-left: 2em;
+   }
 h2 {
   text-align: center; 
   color: #CCB3AE;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: x-large;
+  font-size: 2em;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
+  padding-left: 3em;
+  display: inline-block;
   }
 p {
-  text-align: center;
+  text-align: left;
   color: #E9D7DB;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: large;
+  font-size: 1.5em;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
+  padding-left: 4em;
+  padding-right: 10em;
   }
 div {
   color: #E9D7DB;
@@ -37,7 +42,7 @@ div {
   }
 a:link {
   color: #E9D7DB;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:visited {
   color: #E9D7DB;
@@ -45,7 +50,7 @@ a:visited {
 }
 a:hover {
   color: #CCB3AE;
-  text-decoration: none;
+  text-decoration: underline;
   }
 img {
   border-radius: 50%;
