@@ -1,10 +1,11 @@
+
 body, html {
   height: 100%;
   margin: 0;
 }
 .bg {
   /* #120E0E The image used */
-  background-image: url("/work/photos/IMG_7541.jpeg");
+  background-image: url("../../../Downloads/IMG_7541-min.jpeg");
 
   /* Full height */
   height: 60%; 
@@ -55,7 +56,7 @@ h3 {
   font-size: 1.5em;
   font-family: "Courier Prime";
   font-weight: normal;
-  line-height: 30%;
+  line-height: 80%;
   text-size-adjust: inherit;
   padding-left: 7%;
   }
@@ -92,10 +93,9 @@ a:hover {
   text-decoration: none;
   }
 img {
- display: block;
-  margin-left: auto;
+  display: block;
+  margin-left: 7%;
   margin-right: auto;
-  width: 20%;
   }
 body {
   background-color: #CBD5B8;
