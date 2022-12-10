@@ -1,25 +1,63 @@
-h1 {
-  text-align: left; 
-  color: #E9D7DB;
-  text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  /* #120E0E The image used */
+  background-image: url("../../../Downloads/IMG_7541-min.jpeg");
+
+  /* Full height */
+  height: 60%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	  font-size: 70%
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #181C0E;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #181C0E; 
+  font-size: 1.5em;
+  font-family: "Averia Serif Libre";
+}
+h2 {
+  text-align: center; 
+  color: #FFF4EB;
   font-size: 3em;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
-  padding-left: 2em;
-   }
-h2 {
-  text-align: center; 
-  color: #CCB3AE;
-  text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
+  }
+h3 {
+  text-align: left; 
+  color: #4C5638;
   font-size: 1.5em;
-  font-family: "Averia Serif Libre";
+  font-family: "Courier Prime";
   font-weight: normal;
-  line-height: normal;
+  line-height: 30%;
   text-size-adjust: inherit;
-  padding-left: 3em;
-  display: inline-block;
+  padding-left: 7%;
   }
 p {
   text-align: left;
@@ -34,31 +72,33 @@ p {
   padding-right: 10em;
   }
 div {
-  color: #E9D7DB;
   text-align: center; 
-  text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
+  color: #FFF4EB;
+  font-size: 200%;
   font-family: "Averia Serif Libre";
   font-weight: normal;
+  line-height: normal;
   }
 a:link {
-  color: #E9D7DB;
-  text-decoration: underline;
+  color: #FFF4EB;
+  text-decoration: none;
 }
 a:visited {
-  color: #E9D7DB;
+  color: #FFF4EB;
   text-decoration: none;
 }
 a:hover {
-  color: #CCB3AE;
-  text-decoration: underline;
+  color: #94A66F;
+  text-decoration: none;
   }
 img {
-  display: block;
-  margin-left: 5.5em;
+ display: block;
+  margin-left: auto;
   margin-right: auto;
+  width: 20%;
   }
 body {
-  background-color:#381D2A;
+  background-color: #CBD5B8;
   }
 .center {
   padding: 10em;
