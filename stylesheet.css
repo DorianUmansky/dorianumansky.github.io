@@ -5,7 +5,7 @@ body, html {
 }
 .bg {
   /* #120E0E The image used */
-  background-image: url("IMG_7541.jpeg");
+  background-image: url("../../../Downloads/IMG_7541-min.jpeg");
 
   /* Full height */
   height: 60%; 
@@ -22,7 +22,14 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-ul {
+ul.b {
+  list-style-type: square;
+  font-family: "Courier Prime";
+  color: #4C5638;
+  font-size: 150%;
+  padding-left: 10%;
+}
+#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -30,21 +37,21 @@ ul {
   background-color: #181C0E;
 }
 
-li {
+ul#navbar li {
   float: right;
 }
 
-li a {
+ul#navbar li a {
   display: block;
   padding: 8px;
   background-color: #181C0E; 
-  font-size: 1.5em;
+  font-size: 150%;
   font-family: "Averia Serif Libre";
 }
 h2 {
   text-align: center; 
   color: #FFF4EB;
-  font-size: 3em;
+  font-size: 300%;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
@@ -53,7 +60,7 @@ h2 {
 h3 {
   text-align: left; 
   color: #4C5638;
-  font-size: 1.5em;
+  font-size: 150%;
   font-family: "Courier Prime";
   font-weight: normal;
   line-height: 80%;
@@ -64,7 +71,7 @@ p {
   text-align: left;
   color: #E9D7DB;
   text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
-  font-size: 1.5em;
+  font-size: 150%;
   font-family: "Averia Serif Libre";
   font-weight: normal;
   line-height: normal;
