@@ -22,7 +22,14 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#navbar {
+ul.b {
+  list-style-type: square;
+  font-family: "Courier Prime";
+  color: #4C5638;
+  font-size: 150%;
+  padding-left: 10%;
+}
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -30,11 +37,11 @@ body, html {
   background-color: #181C0E;
 }
 
-ul#navbar li {
+ul.navbar li {
   float: right;
 }
 
-ul#navbar li a {
+ul.navbar li a {
   display: block;
   padding: 8px;
   background-color: #181C0E; 
