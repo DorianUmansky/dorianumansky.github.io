@@ -5,7 +5,7 @@ body, html {
 }
 .bg {
   /* #120E0E The image used */
-  background-image: url("../../../Downloads/IMG_7541-min.jpeg");
+  background-image: url("IMG_7541.jpeg");
 
   /* Full height */
   height: 60%; 
@@ -21,13 +21,6 @@ body, html {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.list {
-  list-style-type: square;
-  font-family: "Courier Prime";
-  color: #4C5638;
-  font-size: 150%;
-  padding-left: 10%;
 }
 #navbar {
   list-style-type: none;
