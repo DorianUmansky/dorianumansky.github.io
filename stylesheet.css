@@ -22,13 +22,6 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-ul.b {
-  list-style-type: square;
-  font-family: "Courier Prime";
-  color: #4C5638;
-  font-size: 150%;
-  padding-left: 10%;
-}
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -87,18 +80,19 @@ div {
   font-weight: normal;
   line-height: normal;
   }
-a:link {
+a.navbar:link {
   color: #FFF4EB;
   text-decoration: none;
 }
-a:visited {
+a.navbar:visited {
   color: #FFF4EB;
   text-decoration: none;
 }
-a:hover {
+a.navbar:hover {
   color: #94A66F;
   text-decoration: none;
   }
+
 img {
   display: block;
   margin-left: 7%;
