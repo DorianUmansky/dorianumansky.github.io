@@ -105,3 +105,11 @@ body {
   padding: 10em;
   text-align: center;
 	}
+.link { 
+	color: #4C5638; 
+	text-decoration: underline;
+}
+.link:hover { 
+	color: #94A66F; 
+	text-decoration: underline;
+} 
