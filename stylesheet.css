@@ -41,6 +41,19 @@ ul.navbar li a {
   font-size: 150%;
   font-family: "Averia Serif Libre";
 }
+	ul.b {
+  list-style-type: square;
+}
+	ul.b {
+  list-style-type: square;
+  font-family: "Courier Prime";
+  color: #4C5638;
+  font-size: 150%;
+  padding-left: 9%;
+}
+li a.b {
+  color: #4C5638;
+	}
 h2 {
   text-align: center; 
   color: #FFF4EB;
