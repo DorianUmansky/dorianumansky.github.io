@@ -80,6 +80,28 @@ div {
   font-weight: normal;
   line-height: normal;
   }
+#cdiv {
+  text-align: left; 
+  color: #4C5638;
+  font-size: 95%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 80%;
+  text-size-adjust: inherit;
+  padding-left: 4%;
+  max-width: 70%;
+}
+div.about {
+  text-align: left; 
+  color: #4C5638;
+  font-size: 100%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 80%;
+  text-size-adjust: inherit;
+  padding-left: 0%;
+  max-width: 80%;	
+}
 a.navbar:link {
   color: #FFF4EB;
   text-decoration: none;
