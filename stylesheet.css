@@ -150,8 +150,8 @@ body {
 	text-decoration: underline;
 } 
 
-span {
+#spantext {
     clear: both;
     display:block;
-	padding-top: 1%
+    padding-top: 1%
 }
