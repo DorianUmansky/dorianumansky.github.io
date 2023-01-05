@@ -5,7 +5,7 @@ body, html {
 }
 .bg {
   /* #120E0E The image used */
-  background-image: url("IMG_7541.jpeg");
+  background-image: url("../../../Downloads/IMG_7541-min.jpeg");
 
   /* Full height */
   height: 60%; 
@@ -36,24 +36,11 @@ ul.navbar li {
 
 ul.navbar li a {
   display: block;
-  padding: 8px;
+  padding: 0.35em;
   background-color: #181C0E; 
   font-size: 150%;
   font-family: "Averia Serif Libre";
 }
-	ul.b {
-  list-style-type: square;
-}
-	ul.b {
-  list-style-type: square;
-  font-family: "Courier Prime";
-  color: #4C5638;
-  font-size: 150%;
-  padding-left: 9%;
-}
-li a.b {
-  color: #4C5638;
-	}
 h2 {
   text-align: center; 
   color: #FFF4EB;
@@ -69,7 +56,7 @@ h3 {
   font-size: 150%;
   font-family: "Courier Prime";
   font-weight: normal;
-  line-height: 80%;
+  line-height: 100%;
   text-size-adjust: inherit;
   padding-left: 7%;
   }
@@ -82,8 +69,8 @@ p {
   font-weight: normal;
   line-height: normal;
   text-size-adjust: inherit;
-  padding-left: 4em;
-  padding-right: 10em;
+  padding-left: 400%;
+  padding-right: 1000%;
   }
 div {
   text-align: center; 
@@ -104,7 +91,7 @@ div {
   padding-left: 4%;
   max-width: 70%;
 }
-div.about {
+div.about{
   text-align: left; 
   color: #4C5638;
   font-size: 100%;
@@ -113,8 +100,21 @@ div.about {
   line-height: 80%;
   text-size-adjust: inherit;
   padding-left: 0%;
-  max-width: 80%;	
+  max-width: 100%;
+	
 }
+#ddiv {
+  text-align: left; 
+  color: #4C5638;
+  font-size: 95%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 80%;
+  text-size-adjust: inherit;
+  padding-left: 4%;
+  max-width: 70%;
+}
+
 a.navbar:link {
   color: #FFF4EB;
   text-decoration: none;
@@ -132,12 +132,13 @@ img {
   display: block;
   margin-left: 7%;
   margin-right: auto;
+  padding-left: 2%
   }
 body {
   background-color: #CBD5B8;
   }
 .center {
-  padding: 10em;
+  padding: 100%;
   text-align: center;
 	}
 .link { 
@@ -148,3 +149,9 @@ body {
 	color: #94A66F; 
 	text-decoration: underline;
 } 
+
+span {
+    clear: both;
+    display:block;
+	padding-top: 1%
+}
